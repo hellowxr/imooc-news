@@ -1,2 +1,3 @@
 # Project exclude paths
 /service-user/target/
+/.idea/vcs.xml
