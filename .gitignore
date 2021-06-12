@@ -1,3 +1,6 @@
 # Project exclude paths
+/.idea/
+/common/target/
+/model/target/
+/service-api/target/
 /service-user/target/
-/.idea/vcs.xml

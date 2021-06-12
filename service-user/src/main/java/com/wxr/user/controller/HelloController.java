@@ -1,12 +1,12 @@
 package com.wxr.user.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import com.wxr.api.controller.user.HelloControllerApi;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class HelloController implements HelloControllerApi {
 
-    @GetMapping("/hello")
+    @Override
     public Object hello() {
         return "hello world";
     }
