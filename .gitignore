@@ -2,7 +2,4 @@
 /.idea/
 **/*.iml
 
-/common/target/
-/model/target/
-/service-api/target/
-/service-user/target/
+/*/target/
