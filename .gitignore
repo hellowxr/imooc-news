@@ -4,3 +4,5 @@
 /model/target/
 /service-api/target/
 /service-user/target/
+
+*.iml
